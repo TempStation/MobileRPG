@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"/home/unknown/Documents/Projects/MobileRPG/.git": true,
+		"/home/unknown/Documents/Projects/MobileRPG/.vscode": true,
+		"/home/unknown/Documents/Projects/MobileRPG/Content": true,
+		"/home/unknown/Documents/Projects/MobileRPG/Intermediate": true,
+		"/home/unknown/Documents/Projects/MobileRPG/Saved": true
+	}
+}

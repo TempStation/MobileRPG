@@ -1,0 +1,204 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "CleanThirdPerson (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPerson Linux Debug Build",
+			"program": "/home/unknown/Documents/Projects/MobileRPG/Binaries/Linux/CleanThirdPerson-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPerson (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPerson Linux DebugGame Build",
+			"program": "/home/unknown/Documents/Projects/MobileRPG/Binaries/Linux/CleanThirdPerson-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPerson (Development)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPerson Linux Development Build",
+			"program": "/home/unknown/Documents/Projects/MobileRPG/Binaries/Linux/CleanThirdPerson",
+			"args": [
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPerson (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPerson Linux Shipping Build",
+			"program": "/home/unknown/Documents/Projects/MobileRPG/Binaries/Linux/CleanThirdPerson-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPerson (Test)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPerson Linux Test Build",
+			"program": "/home/unknown/Documents/Projects/MobileRPG/Binaries/Linux/CleanThirdPerson-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPersonClient (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPersonClient Linux Debug Build",
+			"program": "/home/unknown/Documents/Projects/MobileRPG/Binaries/Linux/CleanThirdPersonClient-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPersonClient (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPersonClient Linux DebugGame Build",
+			"program": "/home/unknown/Documents/Projects/MobileRPG/Binaries/Linux/CleanThirdPersonClient-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPersonClient (Development)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPersonClient Linux Development Build",
+			"program": "/home/unknown/Documents/Projects/MobileRPG/Binaries/Linux/CleanThirdPersonClient",
+			"args": [
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPersonClient (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPersonClient Linux Shipping Build",
+			"program": "/home/unknown/Documents/Projects/MobileRPG/Binaries/Linux/CleanThirdPersonClient-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPersonClient (Test)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPersonClient Linux Test Build",
+			"program": "/home/unknown/Documents/Projects/MobileRPG/Binaries/Linux/CleanThirdPersonClient-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPersonEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPersonEditor Linux Debug Build",
+			"program": "/home/unknown/Apps/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject"
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPersonEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPersonEditor Linux DebugGame Build",
+			"program": "/home/unknown/Apps/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject"
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPersonEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPersonEditor Linux Development Build",
+			"program": "/home/unknown/Apps/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject"
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPersonServer (Debug)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPersonServer Linux Debug Build",
+			"program": "/home/unknown/Documents/Projects/MobileRPG/Binaries/Linux/CleanThirdPersonServer-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPersonServer (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPersonServer Linux DebugGame Build",
+			"program": "/home/unknown/Documents/Projects/MobileRPG/Binaries/Linux/CleanThirdPersonServer-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPersonServer (Development)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPersonServer Linux Development Build",
+			"program": "/home/unknown/Documents/Projects/MobileRPG/Binaries/Linux/CleanThirdPersonServer",
+			"args": [
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPersonServer (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPersonServer Linux Shipping Build",
+			"program": "/home/unknown/Documents/Projects/MobileRPG/Binaries/Linux/CleanThirdPersonServer-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "CleanThirdPersonServer (Test)",
+			"request": "launch",
+			"preLaunchTask": "CleanThirdPersonServer Linux Test Build",
+			"program": "/home/unknown/Documents/Projects/MobileRPG/Binaries/Linux/CleanThirdPersonServer-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/unknown/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/unknown/Apps/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/unknown/Apps/UnrealEngine"
+		}
+	]
+}

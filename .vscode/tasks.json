@@ -1,0 +1,3085 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "CleanThirdPerson Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Mac",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Mac",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Mac",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Mac",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Mac",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Mac",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Mac",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Mac",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Mac",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Mac",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Mac",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Mac",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Mac",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Mac",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Mac",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"IOS",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"IOS",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"IOS",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"IOS",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"IOS",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"IOS",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"IOS",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"IOS",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"IOS",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"IOS",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"IOS",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"IOS",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"IOS",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"IOS",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"IOS",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Android Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Android",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Android",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Android Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Android",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Android DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Android",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Android",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Android",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Android Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Android",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Android Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Android",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Android Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Android",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Android Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Android",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Android",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Android Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Android",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Android Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Android",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Android Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Android",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Android Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Android",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"HTML5",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"HTML5",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"HTML5",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"HTML5",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"HTML5",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"HTML5",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"HTML5",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"HTML5",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"HTML5",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"HTML5",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"HTML5",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"HTML5",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"HTML5",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"HTML5",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"HTML5",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Linux",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Linux",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Linux",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Linux",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Linux",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Linux",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Linux",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Linux",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Linux",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Linux",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Linux",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Linux",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Linux",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Linux",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"Linux",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"TVOS",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"TVOS",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"TVOS",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"TVOS",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"TVOS",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"TVOS",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"TVOS",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"TVOS",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"TVOS",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"TVOS",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"TVOS",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"TVOS",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"TVOS",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"TVOS",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPerson TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPerson TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPerson",
+				"TVOS",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Linux",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Linux",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonClient Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Linux",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Linux",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Linux",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonClient Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Linux",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Linux",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Linux",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonClient Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Linux",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Linux",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Linux",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonClient Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Linux",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Linux",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Linux",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonClient Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Linux",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Mac",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Mac",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonClient Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Mac",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Mac",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Mac",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonClient Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Mac",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Mac",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Mac",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonClient Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Mac",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Mac",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Mac",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonClient Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Mac",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Mac",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Mac",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonClient Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonClient Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonClient",
+				"Mac",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Linux",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Linux",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Linux",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Linux",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Linux",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Linux",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Linux",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Linux",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Linux",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Mac",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Mac",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Mac",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Mac",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Mac",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Mac",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Mac",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Mac",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonEditor",
+				"Mac",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Linux",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Linux",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonServer Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Linux",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Linux",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Linux",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonServer Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Linux",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Linux",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Linux",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonServer Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Linux",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Linux",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Linux",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonServer Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Linux",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Linux",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Linux",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonServer Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Linux",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Mac",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Mac",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonServer Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Mac",
+				"Debug",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Mac",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Mac",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonServer Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Mac",
+				"DebugGame",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Mac",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Mac",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonServer Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Mac",
+				"Development",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Mac",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Mac",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonServer Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Mac",
+				"Shipping",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Mac",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Mac",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"CleanThirdPersonServer Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "CleanThirdPersonServer Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"CleanThirdPersonServer",
+				"Mac",
+				"Test",
+				"/home/unknown/Documents/Projects/MobileRPG/CleanThirdPerson.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/unknown/Apps/UnrealEngine"
+			}
+		}
+	]
+}
